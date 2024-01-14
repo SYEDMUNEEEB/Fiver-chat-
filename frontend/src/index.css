@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.emoji-picker-react {
+  @apply bg-white dark:bg-gray-800
+  }
+
+  .emoji-picker-react .emoji-search {
+    @apply dark:bg-gray-800  dark:text-white dark:border-gray-700 dark:focus:border-sky-500
+    }
+  
+    .emoji-picker-react .emoji-categories  {
+      @apply dark:bg-gray-800;
+      }
+
+      .emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar {
+        @apply dark:bg-gray-800 w-5
+      }
+
+      .emoji-picker-react .emoji-categories button  {
+        @apply contrast-0
+        }
+
+      .emoji-picker-react .emoji-scroll-wrapper .emoji-group::before {
+        @apply dark:bg-gray-800  dark:text-white
+      }
+
+  @layer base {
+    body {
+      @apply bg-white dark:bg-gray-900;
+    }
+  }
+  svg {
+    width: 100%;
+}
+
+.boxx {
+  border-radius: 5px;
+  margin-left: -16px;
+  font-size: 16px;
+  border: blue 1px solid;
+  width: 254px;
+  margin-top: -16px;
+}
+.w-full.msg {
+  position: relative;
+  top: 120px;
+}
+.relative.p-1.overflow-y-auto.h-\[30rem\].bg-white.border-b.border-gray-200.dark\:bg-gray-900.dark\:border-gray-700 {
+  border: none;
+}
